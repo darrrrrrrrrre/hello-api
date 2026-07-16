@@ -1,2 +1,10 @@
+# 排除 Python 虛擬環境
 venv/
+.venv/
+
+# 排除本地 SQLite 資料庫檔案
+local_books.db
+
+# 排除 Python 快取檔案
 __pycache__/
+*.pyc
